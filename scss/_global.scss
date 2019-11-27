@@ -1,0 +1,95 @@
+// Global styling for this template
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+// About section
+.about-picture{
+  background-image: url(../img/team/me.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  box-shadow: 5px 20px 5px 0 rgba(0, 0, 0, 0.2), 15px 20px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 39vh;
+  margin: 2rem auto;
+  width: 37vh;
+}
+
+.about-text {
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+
+// Typography
+.text-white-75 {
+  color: fade-out($white, .25);
+}
+
+// Custom horizontal rules
+hr.divider {
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  border-color: $primary;
+}
+
+hr.light {
+  border-color: $white;
+}
+
+hr.dark {
+  border-color: $black;
+}
+
+// Button restyling
+.btn {
+  font-family: $font-family-sans-serif;
+}
+
+.btn-xl {
+  padding: 1.25rem 2.25rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10rem;
+}
+
+// Page section padding
+.page-section {
+  padding: 5rem 0;
+}
+
+// Skill Icons
+.devicon-list {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.devicon-list > div {
+  margin: 2rem;
+  text-align: center;
+}
+@media (max-width: 1200px) {
+  .devicon-list > div {
+    width: 100px;
+    margin: 1.5rem;
+    text-align: center;
+  }
+}
+@media (max-width: 992px) {
+  .devicon-list > div {
+    width: 100px;
+    margin: 1.5rem .5rem;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .devicon-list > div {
+    width: 100px;
+    margin: 1.5rem 1rem;
+    text-align: center;
+  }
+}

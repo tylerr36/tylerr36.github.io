@@ -8,38 +8,52 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Tyler Rotman - Software Engineer</title>
+  <title>Phil Garrigan</title>
 
-  <!-- Custom fonts for this theme -->
+  <!-- Font Awesome Icons -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
-  <!-- Theme CSS -->
-  <link href="css/freelancer.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+
+  <!-- Plugin CSS -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+  <!-- Theme CSS - Includes Bootstrap -->
+  <link href="css/creative.min.css" rel="stylesheet">
+
+  <!-- Scroll Animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Skill Icons -->
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
 </head>
 
 <body id="page-top">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Tyler Rotman</a>
-      <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Phil Garrigan</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+        <ul class="navbar-nav ml-auto my-2 my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About Me</a>
           </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services">Skills</a>
           </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#portfolio-agency">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -47,611 +61,382 @@
   </nav>
 
   <!-- Masthead -->
-  <header class="masthead bg-primary text-white text-center">
-    <div class="container d-flex align-items-center flex-column">
-
-      <!-- Masthead Avatar Image -->
-      <!-- <img class="masthead-avatar mb-5" src="img/avataaars.svg" alt=""> -->
-
-      <!-- Masthead Heading -->
-      <h1 class="masthead-heading text-uppercase mb-0">Tyler Rotman</h1>
-
-      <!-- Icon Divider -->
-      <div class="divider-custom divider-light">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
+  <header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center justify-content-center text-center">
+        <div class="col-lg-10 align-self-end">
+          <h1 class="text-uppercase font-weight-bold">Phil</h1>
+          <h1 class="text-uppercase font-weight-bold">Garrigan</h1>
+          <hr class="divider my-4">
         </div>
-        <div class="divider-custom-line"></div>
+        <div class="col-lg-8 align-self-baseline">
+          <p class="text-white mb-5">Boston Based Full-Stack Web Developer | Software Engineer</p>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="https://drive.google.com/file/d/1Th7eMsuOUxzfM5gEVaPMXWui8MWQdobJ/view?usp=sharing" target="_blank">View Resume</a>
+        </div>
       </div>
-
-      <!-- Masthead Subheading -->
-      <p class="masthead-subheading font-weight-light mb-0">Software Engineer - Aspiring Jeopardy Contestant</p>
-
     </div>
   </header>
 
-  <!-- Portfolio Section -->
-  <section class="page-section portfolio" id="portfolio">
-    <div class="container">
-
-      <!-- Portfolio Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-
-      <!-- Icon Divider -->
-      <div class="divider-custom">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
-        </div>
-        <div class="divider-custom-line"></div>
-      </div>
-
-      <!-- Portfolio Grid Items -->
-      <div class="row">
-
-        <!-- Portfolio Item 1 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/beehive.png" alt="">
-          </div>
-        </div>
-
-        <!-- Portfolio Item 2 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/cake.png" alt="">
-          </div>
-        </div>
-
-        <!-- Portfolio Item 3 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/circus.png" alt="">
-          </div>
-        </div>
-
-        <!-- Portfolio Item 4 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/game.png" alt="">
-          </div>
-        </div>
-
-        <!-- Portfolio Item 5 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/safe.png" alt="">
-          </div>
-        </div>
-
-        <!-- Portfolio Item 6 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
-          </div>
-        </div>
-
-      </div>
-      <!-- /.row -->
-
-    </div>
-  </section>
-
-  <!-- Skills Section -->
-  <section class="page-section skills" id="skills">
-    <div class="container">
-
-      <!-- Skills Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Skills</h2>
-
-      <!-- Icon Divider -->
-      <div class="divider-custom">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
-        </div>
-        <div class="divider-custom-line"></div>
-      </div>
-
-      <!-- Skills Grid Items -->
-      <div class="row">
-
-        <!-- CSS3 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/skills-images/css3-logo.png" alt="">
-          </div>
-        </div>
-
-        <!-- JavaScript -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/skills-images/express-logo.png" alt="">
-          </div>
-        </div>
-
-        <!-- Portfolio Item 3 -->
-        <!-- <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/circus.png" alt="">
-          </div>
-        </div> -->
-
-        <!-- Portfolio Item 4 -->
-        <!-- <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/game.png" alt="">
-          </div>
-        </div> -->
-
-        <!-- Portfolio Item 5 -->
-        <!-- <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/safe.png" alt="">
-          </div>
-        </div> -->
-
-        <!-- Portfolio Item 6 -->
-        <!-- <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/submarine.png" alt=""> -->
-          <!-- </div>
-        </div> -->
-
-      </div>
-      <!-- /.row -->
-
-    </div>
-  </section>
-
   <!-- About Section -->
-  <section class="page-section bg-primary text-white mb-0" id="about">
+  <section class="page-section bg-primary" id="about">
     <div class="container">
-
-      <!-- About Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
-
-      <!-- Icon Divider -->
-      <div class="divider-custom divider-light">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
+      <div class="row justify-content-center align-items-center">
+        <div class="about-picture" data-aos="zoom-in-right" data-aos-easing="linear"
+       data-aos-duration="300">
         </div>
-        <div class="divider-custom-line"></div>
-      </div>
+        <div class="text-center col-lg-7 col-sm-12" data-aos="zoom-in-left" data-aos-easing="linear"
+     data-aos-duration="300">
+          <h2 class="about-header mt-0">Hi, I'm Phil Garrigan!</h2>
+          <hr class="divider dark my-4">
+          <p class="about-text mb-2">I previously worked for one of the Big 4 public accounting firms, collaborating with individuals from all over the globe, each with their own unique perspective. Working with globally diverse teams to fulfill our clients’ needs shaped my appreciation for what high-performing, results-driven, and cohesive teams can accomplish.</p>
 
-      <!-- About Section Content -->
-      <div class="row">
-        <div class="col-lg-4 ml-auto">
-          <p class="lead">As I transition into a career in software engineering, having worked in a number of client-facing roles, I look forward to matching my job-ready interpersonal skills with equally marketable technical expertise.</p>
-        </div>
-        <div class="col-lg-4 mr-auto">
-          <p class="lead">I am excited to build a career in a growing field that creates tremendous value across a wide variety of markets.</p>
+          <p class="about-text mb-2">Throughout my experience in public accounting and General Assembly, I've seen first hand that no problem is too big to solve. I pride myself on being able to deconstruct large problems into compact, attainable chunks through a systematic approach to planning, efficient time management techniques, and attention to detail. I'm excited to apply these skills that I’ve learned throughout my career and time at General Assembly to propel me on my journey to be the best developer I can be.</p>
         </div>
       </div>
-
-      <!-- About Section Button -->
-      <!-- <div class="text-center mt-4">
-        <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/">
-          <i class="fas fa-download mr-2"></i>
-          Free Download!
-        </a>
-      </div> -->
-
     </div>
   </section>
+
+  <!-- Services Section -->
+  <section class="page-section" id="services">
+    <div class="container">
+      <h1 class="text-center mt-0">Skillset</h1>
+      <hr class="divider my-4">
+
+      <div class="row devicon-list">
+        <div data-aos="flip-up" data-aos-easing="linear"
+       data-aos-duration="300">
+          <img src="https://icongr.am/devicon/atom-original-wordmark.svg?size=100" alt="Android" data-toggle="tooltip" data-placement="top" title="Atom">
+        </div>
+        <div data-aos="flip-up" data-aos-easing="linear"
+       data-aos-duration="300">
+          <img src="https://icongr.am/devicon/javascript-original.svg?size=100" alt="JavaScript" data-toggle="tooltip" data-placement="top" title="JavaScript">
+        </div>
+        <div data-aos="flip-up" data-aos-easing="linear"
+       data-aos-duration="300">
+          <img src="https://icongr.am/devicon/bootstrap-plain-wordmark.svg?size=100&color=563d7c" alt="Bootstrap" data-toggle="tooltip" data-placement="top" title="Bootstrap">
+        </div>
+        <div data-aos="flip-up" data-aos-easing="linear"
+       data-aos-duration="300">
+          <img src="https://icongr.am/devicon/css3-original-wordmark.svg?size=100" alt="CSS" data-toggle="tooltip" data-placement="top" title="CSS">
+        </div>
+        <div data-aos="flip-up" data-aos-easing="linear"
+       data-aos-duration="300">
+          <img src="https://icongr.am/devicon/express-original.svg?size=100" alt="Express" data-toggle="tooltip" data-placement="top" title="Express">
+        </div>
+        <div data-aos="flip-up" data-aos-easing="linear"
+       data-aos-duration="300">
+          <img src="https://icongr.am/devicon/git-original-wordmark.svg?size=100" alt="Git" data-toggle="tooltip" data-placement="top" title="Git">
+        </div>
+        <div data-aos="flip-up" data-aos-easing="linear"
+       data-aos-duration="300">
+          <img src="https://icongr.am/devicon/github-original-wordmark.svg?size=100" alt="GitHub" data-toggle="tooltip" data-placement="top" title="GitHub">
+        </div>
+        <div data-aos="flip-up" data-aos-easing="linear"
+       data-aos-duration="300">
+          <img src="https://icongr.am/devicon/html5-original-wordmark.svg?size=100" alt="HTML5" data-toggle="tooltip" data-placement="top" title="HTML5">
+        </div>
+        <div data-aos="flip-up" data-aos-easing="linear"
+       data-aos-duration="300">
+          <img src="https://icongr.am/devicon/handlebars-original-wordmark.svg?size=100" alt="Handlebars" data-toggle="tooltip" data-placement="top" title="Handlebars">
+        </div>
+        <div data-aos="flip-up" data-aos-easing="linear"
+       data-aos-duration="300">
+          <img src="https://icongr.am/devicon/heroku-original.svg?size=100" alt="Heroku" data-toggle="tooltip" data-placement="top" title="Heroku">
+        </div>
+        <div data-aos="flip-up" data-aos-easing="linear"
+       data-aos-duration="300">
+          <img src="https://icongr.am/devicon/jquery-original-wordmark.svg?size=100" alt="jQuery" data-toggle="tooltip" data-placement="top" title="jQuery">
+        </div>
+        <div data-aos="flip-up" data-aos-easing="linear"
+       data-aos-duration="300">
+          <img src="https://icongr.am/devicon/mongodb-original-wordmark.svg?size=100" alt="mongodb" data-toggle="tooltip" data-placement="top" title="mongodb">
+        </div>
+        <div data-aos="flip-up" data-aos-easing="linear"
+       data-aos-duration="300">
+          <img src="https://icongr.am/devicon/nodejs-original.svg?size=100" alt="nodejs" data-toggle="tooltip" data-placement="top" title="nodejs">
+        </div>
+        <div data-aos="flip-up" data-aos-easing="linear"
+       data-aos-duration="300">
+          <img src="https://icongr.am/devicon/ruby-original-wordmark.svg?size=100" alt="Ruby" data-toggle="tooltip" data-placement="top" title="Ruby">
+        </div>
+        <div data-aos="flip-up" data-aos-easing="linear"
+       data-aos-duration="300">
+          <img src="https://icongr.am/devicon/rails-original-wordmark.svg?size=100" alt="Rails" data-toggle="tooltip" data-placement="top" title="Rails">
+        </div>
+        <div data-aos="flip-up" data-aos-easing="linear"
+       data-aos-duration="300">
+          <img src="https://icongr.am/devicon/react-original-wordmark.svg?size=100" alt="React" data-toggle="tooltip" data-placement="top" title="React">
+        </div>
+        <div data-aos="flip-up" data-aos-easing="linear"
+       data-aos-duration="300">
+          <img src="https://icongr.am/devicon/postgresql-original-wordmark.svg?size=100" alt="postgresql" data-toggle="tooltip" data-placement="top" title="postgresql">
+        </div>
+        <div data-aos="flip-up" data-aos-easing="linear"
+       data-aos-duration="300">
+          <img src="https://icongr.am/devicon/sass-original.svg?size=100" alt="Sass" data-toggle="tooltip" data-placement="top" title="Sass">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Agency Portfolio Template -->
+  <!-- Portfolio Grid -->
+  <section class="page-section bg-primary" id="portfolio-agency">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h1 class="text-center mt-0">Portfolio</h1>
+          <hr class="divider dark my-4">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 portfolio-item" data-aos="zoom-in" data-aos-easing="linear"
+        data-aos-duration="300">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <h1><i class="fas fa-plus fa-0x"></i> View More!</h1>
+            </div>
+          </div>
+          <img class="img-fluid" src="img/portfolio/be-hoppy2.png" alt="">
+        </a>
+        <div class="portfolio-caption">
+          <h4>Be Hoppy</h4>
+        </div>
+      </div>
+
+
+        <div class="col-lg-6 col-md-6 col-sm-6 portfolio-item" data-aos="zoom-in" data-aos-easing="linear"
+       data-aos-duration="300">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <h1><i class="fas fa-plus fa-0x"></i> View More!</h1>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/pain-in-the-task1.png" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Pain in the Task</h4>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-6 col-md-6 col-sm-6 portfolio-item" data-aos="zoom-in" data-aos-easing="linear"
+        data-aos-duration="300">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <h1><i class="fas fa-plus fa-0x"></i> View More!</h1>
+            </div>
+          </div>
+          <img class="img-fluid" src="img/portfolio/nile.png" alt="">
+        </a>
+        <div class="portfolio-caption">
+          <h4>Nile: E-Commerce</h4>
+        </div>
+      </div>
+
+
+        <div class="col-lg-6 col-md-6 col-sm-6 portfolio-item" data-aos="zoom-in" data-aos-easing="linear"
+        data-aos-duration="300">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content align-items-center">
+              <h1><i class="fas fa-plus fa-0x"></i> View More!</h1>
+            </div>
+          </div>
+          <img class="img-fluid" src="img/portfolio/tic-tac-toe.png" alt="">
+        </a>
+        <div class="portfolio-caption">
+          <h4>Tic Tac Toe</h4>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Modals -->
+
+  <!-- Modal 1 - Be Hoppy -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>Be Hoppy</h2>
+                <img class="d-block mx-auto" src="img/portfolio/be-hoppy2.png" alt="">
+                <p>Be Hoppy is a single page application where users can review craft beers. After sign in, user's have access to all of their past beer reviews. User's can choose to create new reviews by searching for a specific beer, utilizing the Open Beer Database (a third-party API) or by simply inputting all of the beer review information themselves. In addition to beer reviews, a signed in user can also search for breweries in their hometown and all around the world. The search is powered by a third-party API provided by Yelp Fusion, utilizing the business search feature. The back-end was built using a combination of Ruby, Rails, and PostgreSQL. The front-end was built using React.js, utilizing Axios for http requests to communicate with the API.</p>
+                <ul class="list-inline">
+                  <li>Deployed Site: <a href="https://philgarrigan22.github.io/Be-Hoppy-Client/#/" target="_blank">Link<a/>
+                  </li>
+                  <li>Web Client GitHub Repository: <a href="https://github.com/philgarrigan22/Be-Hoppy-Client" target="_blank">Link</a>
+                  </li>
+                  <li>API GitHub Repository: <a href="https://github.com/philgarrigan22/Be-Hoppy" target="_blank">Link</a>
+                  </li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 - Pain-in-the-Task -->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>Pain in the Task</h2>
+                <img class="d-block mx-auto" src="img/portfolio/pain-in-the-task1.png" alt="">
+                <p>Let's be honest, nobody actually enjoys doing 90% of the things that we put on a task list. However, that's no reason to be unorganized! Pain in the Task aims to help keep users organized by tracking tasks and to-do's in an effective and visually appealing manner. Tasks can be created, modified, renamed, or deleted and saved instantly. The project is equal parts my drive to stay on task and keep things organized and my obsession of a clean and polished user experience.  Pain in the task is a full-stack single page application, utilizing JavaScript, Ruby, A Ruby on Rails back-end API, and MaterializeCSS, among others. </p>
+                <ul class="list-inline">
+                  <li>Deployed Site: <a href="https://philgarrigan22.github.io/Pain-in-the-Task-client/" target="_blank">Link<a/>
+                  </li>
+                  <li>Web Client GitHub Repository: <a href="https://github.com/philgarrigan22/Pain-in-the-Task-client" target="_blank">Link</a>
+                  </li>
+                  <li>API GitHub Repository: <a href="https://github.com/philgarrigan22/Pain-in-the-Task-API" target="_blank">Link</a>
+                  </li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>Nile: E-Commerce</h2>
+                <img class="d-block mx-auto" src="img/portfolio/nile.png" alt="">
+                <p>Nile is an E-Commerce site that lets users view and purchase one-of-a-kind artwork. The client site utilizes Boostrap, Handlebars and Toast and is deployed on Github pages. The API is built using Express.js and MongoDb.</p>
+                <ul class="list-inline">
+                  <li>Deployed Site: <a href="https://wdi-3-0.github.io/nile-client/" target="_blank">Link<a/>
+                  </li>
+                  <li>Web Client GitHub Repository: <a href="https://github.com/wdi-3-0/nile-client" target="_blank">Link</a>
+                  </li>
+                  <li>API GitHub Repository: <a href="https://github.com/wdi-3-0/nile-api" target="_blank">Link</a>
+                  </li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4 - Tic Tac Toe -->
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>Tic Tac Toe!</h2>
+                <img class="d-block mx-auto" src="img/portfolio/tic-tac-toe.png" alt="">
+                <p>This is a simple browser tic tac toe game. Tic Tac Toe was my first application, built using JavaScript and connected to a pre-built API that was provided to us to authenticate users and store game moves.</p>
+                <ul class="list-inline">
+                  <li>Deployed Site: <a href="https://philgarrigan22.github.io/pjg-tic-tac-toe-client" target="_blank">Link<a/>
+                  </li>
+                  <li>Web Client GitHub Repository: <a href="https://github.com/philgarrigan22/pjg-tic-tac-toe-client" target="_blank">Link</a>
+                  </li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <!-- Contact Section -->
   <section class="page-section" id="contact">
     <div class="container">
-
-      <!-- Contact Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-
-      <!-- Icon Divider -->
-      <div class="divider-custom">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
-        </div>
-        <div class="divider-custom-line"></div>
-      </div>
-
-      <!-- Contact Section Form -->
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-          <form name="sentMessage" id="contactForm" novalidate="novalidate">
-            <div class="control-group">
-              <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Name</label>
-                <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="control-group">
-              <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Email Address</label>
-                <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="control-group">
-              <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Phone Number</label>
-                <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="control-group">
-              <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Message</label>
-                <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <br>
-            <div id="success"></div>
-            <div class="form-group">
-              <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
-            </div>
-          </form>
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="mt-0">Let's Get In Touch!</h2>
+          <hr class="divider my-4">
+          <p class="text-muted mb-2">Thanks so much for checking out my site. Please see further contact info below, and feel free to reach out!</p>
         </div>
       </div>
-
+      <hr class="divider my-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-2 text-center">
+          <a href="tel:+19783195280">
+            <i class="fa fa-phone fa-4x sr-contact mb-2"></i>
+          </a>
+          <p>Contact by Phone</p>
+        </div>
+        <div class="col-lg-2 text-center">
+          <a href="https://drive.google.com/file/d/1Th7eMsuOUxzfM5gEVaPMXWui8MWQdobJ/view?usp=sharing" target="_blank">
+            <i class="fas fa-4x fa-file-pdf mb-2"></i>
+          </a>
+          <p>View Resume</p>
+        </div>
+        <div class="col-lg-2 text-center">
+          <a href="https://www.linkedin.com/in/philgarrigan/" target="_blank">
+            <i class="fab fa-linkedin fa-4x mb-2"></i>
+          </a>
+          <p>philgarrigan</p>
+        </div>
+        <div class="col-lg-2 text-center">
+          <a href="mailto:&#112;&#103;&#097;&#114;&#114;&#105;&#103;&#097;&#110;&#050;&#050;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">
+            <i class="fas fa-4x fa-envelope mb-2"></i>
+          </a>
+          <p>Email Me!</p>
+        </div>
+        <div class="col-lg-2 text-center">
+          <a href="https://github.com/philgarrigan22" target="_blank">
+            <i class="fab fa-github fa-4x mb-2"></i>
+          </a>
+          <p>philgarrigan22</p>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="footer text-center">
+  <footer class="bg-light py-4">
     <div class="container">
-      <div class="row">
-
-        <!-- Footer Location -->
-        <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Location</h4>
-          <p class="lead mb-0">125 Summer Street
-            <br>Boston, MA 02110</p>
-        </div>
-
-        <!-- Footer Social Icons -->
-        <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Around the Web</h4>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
-            <i class="fab fa-fw fa-facebook-f"></i>
-          </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
-            <i class="fab fa-fw fa-twitter"></i>
-          </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
-            <i class="fab fa-fw fa-linkedin-in"></i>
-          </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
-            <i class="fab fa-fw fa-dribbble"></i>
-          </a>
-        </div>
-
-        <!-- Footer About Text -->
-        <div class="col-lg-4">
-          <h4 class="text-uppercase mb-4">Resume</h4>
-          <p class="lead mb-0">
-            <a href="http://startbootstrap.com">Tyler Rotman Resume</a>.</p>
-        </div>
-
-      </div>
+      <div class="small text-center text-muted">Copyright &copy; Phil Garrigan 2019</div>
     </div>
   </footer>
-
-  <!-- Copyright Section -->
-  <section class="copyright py-4 text-center text-white">
-    <div class="container">
-      <small>Copyright &copy; Tyler Rotman 2019</small>
-    </div>
-  </section>
-
-  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-  <div class="scroll-to-top d-lg-none position-fixed ">
-    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
-      <i class="fa fa-chevron-up"></i>
-    </a>
-  </div>
-
-  <!-- Portfolio Modals -->
-
-  <!-- Portfolio Modal 1 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Beehive</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/beehive.png" alt="">
-                <!-- Portfolio Modal - Text -->
-                <p class="mb-5">This single page applicaton allows the user to create, view, edit and delete all events that they've created, while also having the ability to RSVP to events created by others. The user can then view all events to which they've RSVPed.</p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portfolio Modal 2 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/cake.png" alt="">
-                <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portfolio Modal 3 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/circus.png" alt="">
-                <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portfolio Modal 4 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/game.png" alt="">
-                <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portfolio Modal 5 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/safe.png" alt="">
-                <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portfolio Modal 6 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/submarine.png" alt="">
-                <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
@@ -659,13 +444,14 @@
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Contact Form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="js/freelancer.min.js"></script>
+  <script src="js/creative.min.js"></script>
+
+  <!-- Scroll Animations -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
 
 </body>
 
