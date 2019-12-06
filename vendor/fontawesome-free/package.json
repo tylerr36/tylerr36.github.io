@@ -2,7 +2,7 @@
   "_args": [
     [
       "@fortawesome/fontawesome-free@5.7.2",
-      "/Users/PhilGarrigan/wdi/projects/outcomes/new-portfolio/phil-garrigan-portfolio-gh-pages"
+      "/Users/Tyler/sei/Outcomes/tylerr36.github.io"
     ]
   ],
   "_from": "@fortawesome/fontawesome-free@5.7.2",
@@ -27,7 +27,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-5.7.2.tgz",
   "_spec": "5.7.2",
-  "_where": "/Users/PhilGarrigan/wdi/projects/outcomes/new-portfolio/phil-garrigan-portfolio-gh-pages",
+  "_where": "/Users/Tyler/sei/Outcomes/tylerr36.github.io",
   "author": {
     "name": "Dave Gandy",
     "email": "dave@fontawesome.com",
